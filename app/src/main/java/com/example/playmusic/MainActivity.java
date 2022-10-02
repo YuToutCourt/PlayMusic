@@ -111,6 +111,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void shuffleButton(View v){
+        if(songsList.size() == 0) return;
+
         Collections.shuffle(songsList);
 
         MyMediaPlayerSingleton.getInstance().reset();
