@@ -27,6 +27,7 @@ I was bored of classic music player and so I dicided to create my own.
 
 ## Image from the app
 
+<img src="https://raw.githubusercontent.com/YuToutCourt/PlayMusic/main/image%20for%20github/screen_music_choice.jpg?token=GHSAT0AAAAAABYJRDSY7RTVAGWOS45KQJV4YZZWSZA" height="600" width="300"> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; <img src="https://raw.githubusercontent.com/YuToutCourt/PlayMusic/main/image%20for%20github/screen_current_music.jpg?token=GHSAT0AAAAAABYJRDSZU7HBPXPD2YPQ6C4UYZZWSPA" height="600" width="300" >
 
 ----
 
