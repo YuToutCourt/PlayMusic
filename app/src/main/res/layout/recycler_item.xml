@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:paddingTop="10dp"
+    android:background="#0b1622"
+    android:paddingBottom="10dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ImageView
+        android:id="@+id/icon_view"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="5dp"
+        android:contentDescription="@string/image"
+        android:paddingTop="10dp"
+        android:src="@drawable/tmplogo" />
+
+    <TextView
+        android:id="@+id/music_title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:paddingTop="15dp"
+        android:layout_toEndOf="@id/icon_view"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        tools:text="Music" />
+
+    <TextView
+        android:id="@+id/music_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/music_title_text"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/icon_view"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="0dp"
+        android:textColor="#9FADBD"
+        android:textSize="12sp"
+        tools:text="Artiste inconnu | Album inconnu | 0 écoute" />
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0b1622"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/shuffle_button"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:clickable="false"
+        android:contentDescription="@string/shufflebutton"
+        android:onClick="shuffleButton"
+        android:paddingTop="10dp"
+        android:src="@drawable/shufflebutton" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/no_songs_text"
+        android:text="@string/no_songs_found"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shuffle_button"
+        android:paddingTop="5dp" />
+
+</RelativeLayout>
