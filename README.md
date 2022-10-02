@@ -2,8 +2,8 @@
 
 ⚠️ THE APP IS STILL IN DEV ⚠️
 # MusicPlayer (tempory name)
-<img src="https://img.shields.io/badge/Java-Gradle-brightgreen.svg?style=plastic">
-<img src="https://img.shields.io/badge/Android 29-Q-brightgreen.svg?style=plastic">
+<img src="https://img.shields.io/badge/Java-Gradle-brightgreen.svg?style=plastic"> <img src="https://img.shields.io/badge/Android 29-Q-brightgreen.svg?style=plastic">
+
 
 MusicPlayer is a mobile app for Android version 10 or higher.
 
